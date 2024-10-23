@@ -36,6 +36,6 @@ metadata:
   secnumdepth: 2
 
   # Cross-references
-  figPrefix:
-  - "figure"
-  - "figures"
+  # figPrefix:
+  # - "figure"
+  # - "figures"

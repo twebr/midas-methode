@@ -10,9 +10,9 @@ pdf-engine: xelatex
 
 metadata:
   # Citations
-  # citation-style: "csl/chicago-note-bibliography-no-date-disambiguation.csl"
-  # bibliography: "alliander.bib"
-  # reference-section-title: "References"
+  citation-style: "csl/chicago-note-bibliography-no-date-disambiguation.csl"
+  bibliography: "alliander.bib"
+  reference-section-title: "Referenties"
 
   # Page layout
   documentclass: article
@@ -36,6 +36,6 @@ metadata:
   secnumdepth: 2
 
   # Cross-references
-  # figPrefix:
-  # - "figure"
-  # - "figures"
+  figPrefix:
+  - "figuur"
+  - "figuren"

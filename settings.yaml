@@ -1,0 +1,41 @@
+# This file was copied (and modified) from 'defaults/academic.json' in my pandoc-workflow repository
+
+filters:
+- pandoc-crossref
+- type: citeproc
+- "filters/remove-headers.lua"
+include-in-header:
+- "header.tex"
+pdf-engine: xelatex
+
+metadata:
+  # Citations
+  # citation-style: "csl/chicago-note-bibliography-no-date-disambiguation.csl"
+  # bibliography: "alliander.bib"
+  # reference-section-title: "References"
+
+  # Page layout
+  documentclass: article
+  geometry:
+  - a4paper
+  - inner=40mm
+  - outer=40mm
+  - top=30mm
+  - bottom=30mm
+  - headheight=14pt
+
+  # Typography
+  fontsize: 11pt
+  mainfont: Arno Pro
+  mainfontoptions:
+  - Numbers=Proportional
+  - Numbers=OldStyle
+  sansfont: Gill Sans
+  indent: true
+  numbersections: true
+  secnumdepth: 2
+
+  # Cross-references
+  figPrefix:
+  - "figure"
+  - "figures"

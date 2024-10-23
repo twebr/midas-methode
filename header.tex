@@ -1,0 +1,224 @@
+% TYPOGRAPHY ================================================================= %
+
+% Line spacing
+\linespread{1.25}
+
+% Advanced quotations. Example usage:
+% automatic switching single/double quotation marks: \enquote{⟨text⟩}
+% formal quoting with references: \textquote[{\cite[67]{doe90}}]{...}
+% display quote: \begin{displayquote}[⟨cite⟩][⟨punct⟩]
+% auto detect text/display quote based on length:
+%    \blockquote[⟨cite⟩][⟨punct⟩]{⟨text⟩}⟨tpunct⟩
+%
+% Note that I set style to British, regardless of language, because the Dutch
+% style is archaic (,,example'')
+\RequirePackage[style=british]{csquotes}
+
+% Remove double space after a period
+\frenchspacing
+
+% Typesetting improvements
+\RequirePackage{microtype}
+
+% For nicely typeset tabular material
+\RequirePackage{booktabs}
+\RequirePackage{makecell} % line breaks within a cell
+
+% Better enumerations
+\RequirePackage{enumitem}
+% Remove separation from list items
+\setlist{nolistsep}
+
+% Smart spacing after macros
+\RequirePackage{xspace}
+
+% Use tabular numbers in table environments
+\AtBeginEnvironment{tabular}{%
+  \small
+  \addfontfeature{Numbers={Monospaced, Lining}}
+}
+
+% Heading customisation
+\RequirePackage{titlesec}
+%\RequirePackage{titlesec}
+%\RequirePackage{sectsty}
+%\allsectionsfont{\sffamily}
+
+
+% Ensure footnote marks is after punctuation
+\RequirePackage{fnpct}
+
+% Only hyphenate where we want to
+% makes command \nohyphens{⟨text⟩} available
+\RequirePackage{hyphenat}
+
+%% Convenience command: all small caps
+\newcommand{\smallcaps}[1]{{\addfontfeatures{Letters={UppercaseSmallCaps, SmallCaps}, LetterSpace=5.0} #1}}
+
+
+% Inline footnote numbers (instead of superscripts)
+% This is a requirement for CMoS
+\makeatletter
+\renewcommand\@makefntext[1]{%
+    \parindent 1em%
+    \noindent
+    \hb@xt@1.8em{\hss\@thefnmark.\space}#1}
+\makeatother
+
+%% Add some space between footnotes
+\addtolength{\footnotesep}{2pt}
+
+
+% RUNNING HEAD =============================================================== %
+
+\RequirePackage{fancyhdr}
+
+% Set the default page style to 'fancy'
+\pagestyle{fancy}
+
+% The running heads/feet don't have rules
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancyhf{} % clear header and footer fields
+% \fancyhead[RE,RO]{\smallcaps{\shorttitle}\quad\thepage}
+\makeatletter
+\fancyhead[LE,LO]{\emph{\@author}}
+\fancyhead[RE,RO]{\thepage}
+\makeatother
+% TODO: add support for short title in pandoc!!
+
+% The `plain' page style is used on chapter opening pages.
+% In Tufte's /Beautiful Evidence/ he never puts page numbers at the
+% bottom of pages -- the folios are unexpressed.
+\fancypagestyle{plain}{
+  \fancyhf{} % clear header and footer fields
+  % Uncomment the following five lines of code if you want the opening page
+  % of the chapter to express the folio in the lower outside corner.
+  %\ifthenelse{\boolean{@tufte@twoside}}
+  %  {\fancyfoot[LE,RO]{\thepage}}
+  %  {\fancyfoot[RE,RO]{\thepage}}
+}
+
+
+% The `empty' page style suppresses all headers and footers.
+% It's used on title pages and `intentionally blank' pages.
+\fancypagestyle{empty}{
+  \fancyhf{} % clear header and footer fields
+}
+
+
+% GRAPHICS =================================================================== %
+
+% Advanced graphics
+\RequirePackage{graphicx}
+
+% Set default sizing for graphics
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+
+% Setup captions
+\RequirePackage{caption}
+\DeclareCaptionFormat{smallcaps}
+{%
+    {\small \smallcaps{#1} \; #3}
+}
+\captionsetup{justification=centering, format=smallcaps}
+
+% \captionsetup{
+%   justification=centering,
+%   font=small,
+%   labelfont=smallcaps,
+%   labelsep=quad
+% }
+
+% MATH ======================================================================= %
+
+% Math extensions
+\RequirePackage{amsmath}
+
+% Additional math operators
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\newcommand*{\val}{\mathsf{val}}
+
+% Additional symbols
+\RequirePackage{amssymb}
+
+% Theorems, definitions, etc.
+\RequirePackage{amsthm}
+%\theoremstyle{definition}
+%\newtheorem{definition}{Definition}[chapter]
+%
+%\theoremstyle{plain}
+%\newtheorem{theorem}{Theorem}[chapter]
+
+
+% HEADINGS =================================================================== %
+
+% Numbered headings
+% \setcounter{secnumdepth}{2} DISABLED; PANDOC HANDLES THIS
+
+\titleformat{\subsubsection}{%
+  \normalfont\itshape}
+{\thesection.}{0.5em}{}
+
+
+% TABLE OF CONTENTS ========================================================== %
+
+% More levels in the TOC
+% \setcounter{tocdepth}{1} DISABLED; PANDOC HANDLES THIS
+
+% Remove dots from TOC
+%\makeatletter
+%\renewcommand{\@dotsep}{10000}
+%\makeatother
+
+
+% GLOSSARIES ================================================================= %
+
+% Glossary and acronyms
+%\usepackage[acronym]{glossaries} % Uncomment for separate glossaries for acronyms and glossary terms
+%\RequirePackage[toc]{glossaries} % Uncomment for unified glossary
+%\RequirePackage{glossary-mcols}
+%\makeglossaries
+%\include{glossary}
+
+
+% TITLE BLOCK ==================================================================
+
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{flushleft}
+    % \vspace*{1cm}
+
+    {\fontsize{26}{22}\selectfont\sffamily\nohyphens{\@title}\par}
+
+    \vspace{4mm}
+    {\fontsize{16}{16}\selectfont\textit{\@author, \@date}\par}
+
+    \vspace{2mm}
+    % {\fontsize{24}{24}\selectfont\textit{}\par}
+  \end{flushleft}
+  \thispagestyle{plain}% suppress the running head
+}
+\makeatother
+
+% Remove indentation after title block
+\RequirePackage{etoolbox}
+\makeatletter
+\appto\@maketitle{\aftergroup\@afterindentfalse\aftergroup\@afterheading}
+\makeatother
+
+% ABSTRACT ==================================================================
+
+\renewenvironment{abstract}{%
+  \begin{displayquote}\smallcaps{Abstract}\;
+}{%
+  \end{displayquote}
+}
+
+
+% FILLER TEXT ================================================================ %
+
+\RequirePackage{lipsum}

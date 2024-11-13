@@ -4,26 +4,32 @@ author: Abel Koentjes & Thijs Meeuwisse
 date: \today
 lang: nl-NL
 abstract: |
-    Abstract is to be written.
+    In deze tekst introduceren we de Midas-methode, een manier om ethische processen binnen organisaties expliciet te maken.
+    Door de Midas-methode toe te passen, wordt de besluitvorming van de rechtspersoon verrijkt.
+    We staan stil bij de kernprincipes van de bedrijfsethiek, de stappen van de methode, voorbeelden van een succesvolle inzet, voordelen ten opzichte van andere methodes, en de aansluiting op ethische stromingen.
 ---
 
 <!-- # Introductie -->
-\noindent Ethiek is het nadenken over juist handelen.
-In elke organisatie spelen ethische kwesties.
-Er worden namelijk beslissingen gemaakt die invloed hebben op zowel de besluitvormer als op anderen.
-Ethiek kan helpen bij het maken van de beste keuze.
+\noindent We leven in een wereld van transities.
+Deze transities hebben een grote impact op de manier waarop we ons leven leiden.
+We staan tegenover talloze keuzes en we moeten goed nadenken over de beslissingen die we maken.
+Ethiek kan helpen bij het maken van een juiste keuze.
 
 <!-- ## Aanleiding -->
-Een voorbeeld van een beslissing met een ethische dimensie, is het wel of niet invoeren van een innovatie.
-Elke organisatie wil innoveren om zo de problemen waar ze tegenaan loopt het hoofd te bieden.
-Voorstanders van innovaties beloven wel eens gouden bergen:
-door een nieuwe technologie of werkwijze te adopteren, kan men allerlei problemen oplossen.
+Een dilemma waar een organisatie tegenaan kan lopen, is de afweging tussen betaalbaarheid en duurzaamheid.
+Haast elk bedrijf of rechtspersoon probeert tegenwoordig haar bedrijfsprocessen te verduurzamen.
+Echter kan zo'n verduurzaming leiden tot een stijging van de kosten, waardoor de betaalbaarheid van het geleverde product in het geding komt.
+Voor organisaties met een maatschappelijk kritieke functie, zoals ov-bedrijven en netbeheerders, heeft een kostenstijging verregaande gevolgen.
 Juist bij dit soort situaties loont het om goed stil te staan bij de gevolgen van een beslissing.
-Iets lijkt misschien op het eerste gezicht heel mooi, maar als je er beter over nadenkt, kan het zomaar zijn dat een gift eerder een last is.
+Rechtspersonen komen hierdoor voor de vraag te staan:
+in hoeverre ben je bereid om te handelen volgens de principes waar je voor pleit te staan?
 
-Om op een gestructureerde manier na te denken over ethische kwesties, hebben wij een methode ontwikkeld: de *Midas-methode*, vernoemd naar de koning uit de Griekse mythologie die, net als veel organisaties, verleid werd door een innovatie---alles wat hij aanraakte, werd van goud---maar er al gauw achter kwam dat dit vermogen eerder een vloek dan een zege was.
+Om op een gestructureerde manier na te denken over ethische kwesties, hebben wij een methode ontwikkeld: de *Midas-methode*.
+De methode is vernoemd naar de koning uit de Griekse mythologie die, net als veel organisaties, verleid werd door een innovatie die alle problemen beloofde op te lossen---alles wat hij aanraakte, werd van goud.
+Maar al gauw kwam de koning erachter kwam dat dit vermogen eerder een vloek dan een zege was. 
+Soms lijkt iets op het eerste gezicht een gift, maar als je er goed over nadenkt, zie je pas de werkelijke impact ervan.
 
-In deze tekst bespreken we de Midas-methode, laten we zien wat de voordelen zijn ten opzichte van andere methodes, en leggen we uit hoe deze toegepast kan worden binnen een organisatie.
+In deze tekst introduceren we de Midas-methode, laten we zien wat de voordelen zijn ten opzichte van andere methodes, en leggen we uit hoe deze toegepast kan worden binnen een organisatie.
 Voor wie extra verdieping zoekt, bespreken we tevens de aansluiting bij de dominante ethische stromingen.
 
 <!-- ## Delen = open source -->
@@ -41,7 +47,9 @@ Waarden die hierin een rol spelen, zijn:
 
 - *Transparantie.* Openheid over bedrijfsprocessen en besluitvorming helpt bij het bouwen van vertrouwen en stelt stakeholders in staat weloverwogen beslissingen te nemen over hun betrokkenheid bij het bedrijf. 
 - *Eerlijkheid en integriteit.* Deze vormen de basis van vertrouwen tussen bedrijven en hun klanten, investeerders en werknemers. Eerlijkheid in communicatie, transparantie in bedrijfsvoering en integriteit in handelen zijn cruciaal. 
-- *Maatschappelijke verantwoordelijkheid.* Bedrijven worden steeds meer beoordeeld op hun bijdrage aan de samenleving. Dit omvat hoe zij omgaan met sociale kwesties, bijdragen aan de gemeenschap en verantwoordelijk handelen ten opzichte van het milieu. 
+- *Verantwoordelijkheid.* Bedrijven worden steeds meer beoordeeld op hun bijdrage aan de samenleving. Dit omvat hoe zij omgaan met sociale kwesties, bijdragen aan de gemeenschap en verantwoordelijk handelen ten opzichte van het milieu. 
+- *Empathie.* Bedrijven streven ernaar om alle perspectieven mee te nemen in hun besluitvorming.
+- *Zelfreflectie.* Een goed bedrijf is zich bewust van haar eigen kernwaarden en beoordeelt kritisch of de huidige activiteiten in overeenstemming zijn met deze waarden.
 
 <!-- eventuele aanvulling: https://intranet.alliander.com/blog/view/34272724/introductie-in-de-ethiek-bedrijfsethiek -->
 
@@ -52,16 +60,16 @@ Er is sprake van een *dilemma*:
 er bestaan meerdere handelingsopties die elk morele implicaties dragen en waarbij geen enkele keuze duidelijk moreel superieur is.
 
 Juist bij dit soort dilemma's kan bedrijfsethiek helpen, omdat ze onderliggende waarden expliciet en daarmee bespreekbaar maakt.
-De rol van een *Ethics Office* is dan ook niet zozeer om te adviseren wat het juiste antwoord is op een ethisch dilemma, maar om te verhelderen welke waarden een rol spelen in het dilemma.
 Het is vervolgens aan de belanghebbenden om een afweging te maken tussen de waarden die op tafel liggen, en op basis daarvan een beslissing te nemen.
 
 
 # De stappen van de Midas-methode
 
 <!-- Van behoefte naar methode -->
-In de vorige sectie hebben we duidelijk gemaakt welke *behoefte* organisaties hebben aan ethische reflectie.
-In deze sectie gaan we in op de *methode* om in deze behoefte te voorzien.
-De Midas-methode die wij suggereren, bestaat uit de volgende negen stappen die **wie?** gezamenlijk doorlopen:
+In de vorige sectie hebben we duidelijk gemaakt welke behoefte organisaties hebben aan ethische reflectie.
+In deze sectie gaan we in op de methode om in deze behoefte te voorzien.
+De Midas-methode die wij suggereren, helpt bij het expliciteren van ethische processen die al aanwezig zijn in de organisatie.
+Ze bestaat uit de volgende negen stappen die stakeholders gezamenlijk doorlopen:
 
 1. *Dilemma.* We kijken naar de casus zoals aangeleverd. Kan deze in één zin kort, bondig en compleet geformuleerd worden?
 2. *Kennisvergaring.* In deze stap kijken we of er nog informatie ontbreekt. Alle relevante info wordt verzameld.
@@ -70,15 +78,14 @@ De Midas-methode die wij suggereren, bestaat uit de volgende negen stappen die *
 5. *Conflicten.* Hier kijken we welke stakeholders, belangen en onderliggende waarden er met elkaar botsen en waar binnen dit dilemma de conflicten liggen.
 6. *Herformulering.* Met alle nieuw opgehaalde informatie kijken we of het dilemma, zoals geformuleerd in stap 1, aangescherpt kan worden.
 7. *Opties.* Met de nu bekende informatie kijken we welke posities en handelingsmogelijkheden nu reëel zijn.
-8. *Impact.* We kijken wat de effecten en impact van de mogelijke handelingsmethoden zijn. Dit doen we aan de hand van een analyse met het zeskapitalenmodel **bron?**.
-9. *Advies of besluit.* Het laatste deel van de methode richt zich op de daadwerkelijke besluitvorming. Door de informatie en overwegingen synthetiseren, kan een weloverwogen keuze worden gemaakt en kan deze ook worden beschreven en gedocumenteerd. 
-	- **Wie brengt het advies uit?**
-	- **Richting wie wordt een advies uitgebracht?**
+8. *Impact.* We kijken wat de effecten en impact van de mogelijke handelingsmethoden zijn. Dit doen we aan de hand van een analyse met het zeskapitalenmodel.[Zie bijvoorbeeld @gouldEtAl2013BusinessModelBackground.]
+9. *Besluit.* Het laatste deel van de methode richt zich op de daadwerkelijke besluitvorming. Door de informatie en overwegingen synthetiseren, kan een weloverwogen keuze worden gemaakt en kan deze ook worden beschreven en gedocumenteerd. 
 
 Het *ethischdilemmacanvas* is een hulpmiddel dat kan worden gebruikt om deze stappen te doorlopen.
-Met dit canvas, getoond in @fig:canvas, worden de stappen zichtbaar gemaakt en kunnen de stakeholders hun bijdragen aan het gesprek verzamelen.
+Het canvas is een visualisatie die de methode vat.
+Met dit canvas, getoond in @fig:canvas, worden de stappen zichtbaar gemaakt en kunnen stakeholders hun bijdragen aan het gesprek verzamelen.
 
-![Het ethischdilemmacanvas](figures/canvas.pdf){#fig:canvas}
+![Het ethischdilemmacanvas.](figures/canvas.pdf){#fig:canvas}
 
 
 
@@ -90,14 +97,14 @@ Hoewel deze hulpmiddelen van grote waarde kunnen zijn, blijven ze beperkt tot ee
 
 Andere methoden zijn weliswaar breder toepasbaar, maar vergen een veel tijd in hun uitvoering en een grote expertise van de facilitator.
 Zo is er Socio-Technical Integration Research (STIR), een protocol gebaseerd op het *‌midstream modulation framework*.[@greiving2019STIR]
-Dit protocol is gericht op wetenschappelijk onderzoek en vereis naast een ervaren facilitator een onderzoeker die de resultaten kan analyseren.
-Het tijdsbestek van het protocol is 12 weken.
+Dit protocol is gericht op wetenschappelijk onderzoek en vereist naast een ervaren facilitator een onderzoeker die de resultaten kan analyseren.
+Het tijdsbestek van dit protocol is 12 weken.
 
 De kracht van de Midas-methode ligt in haar *eenvoud* en *brede toepasbaarheid*.
 Zo komt ze tegemoet aan de tekortkomingen van bovengenoemde methoden.
 De Midas-methode gaat over organisatorische besluitvorming in het algemeen, ongeacht het thema.
 Bovendien is het mogelijk om in een relatief kort tijdbestek het ethische dilemma inzichtelijk te maken.
-Voor het doorlopen van de methode raden we, afhankelijk van de  complexiteit van de casus, een tijdsduur van een dagdeel tot één dag aan **‌(?)**.
+Voor het doorlopen van de methode raden we, afhankelijk van de  complexiteit van de casus, een tijdsduur van een dagdeel tot één dag aan.
 Op deze manier is de methode eenvoudig in te zetten voor concrete casussen.
 Het bedrijfsleven is hier het meest bij gebaat.
 
@@ -107,15 +114,15 @@ Het bedrijfsleven is hier het meest bij gebaat.
 In deze sectie geven we enkele korte voorbeelden van casussen waarbij de Midas-methode succesvol is ingezet voor ethische reflectie.
 
 - *Het aangaan van een partnerschap met een big tech-bedrijf.* Moet een organisatie een samenwerkingsverband aangaan met een big tech-bedrijf dat er ethisch twijfelachtige praktijken op nahoudt? Een partnerschap gaat verder dan een pure leveranciersrelatie, omdat het impliceert dat beide partijen gemeenschappelijke doelstellingen hebben. In de casus die werd behandeld, zijn de voor- en nadelen van zo'n samenwerking besproken. De waarden van de eigen organisatie zijn met hulp van de geëxpliciteerd. Op basis daarvan kon een advies worden uitgebracht of een partnerschap wel of niet moet worden aangegaan.
-- *Screeningsbeleid van nieuwe medewerkers.* In deze casus boog de organisatie over de vraag of een bijzonderheid, geconstateerd tijdens een screening van een nieuwe medewerker, toelaatbaar is of niet. Verschillende afdelingen binnen de organisatie hebben conflicterende belangen bij de screening van nieuwe medewerkers. De Midas-methode heeft geholpen om de achterliggende waarden van deze conflicten te verduidelijken.
-- *Voorkeursbeleid HR.* Is het wenselijk als een organisatie een voorkeursbeleid invoert voor mensen uit minderheidsgroepen? Ook deze casus is met behulp van de Midas-methode geanalyseerd. **Meer info?**
+- *Screeningsbeleid van nieuwe medewerkers.* In deze casus boog de organisatie zich over de vraag of een bijzonderheid, geconstateerd tijdens een screening van een nieuwe medewerker, toelaatbaar is of niet. Verschillende afdelingen binnen de organisatie hebben conflicterende belangen bij de screening van nieuwe medewerkers. De Midas-methode heeft geleid tot een toetsingskader om ervoor te zorgen dat willekeur bij de beoordeling van bijzonderheden wordt tegengegaan.
+- *Voorkeursbeleid HR.* Is het wenselijk als een organisatie bij het aannemen van nieuw personeel een voorkeursbeleid hanteert voor mensen uit minderheidsgroepen? Ook deze casus is met behulp van de Midas-methode geanalyseerd. De voor- en nadelen van het invoeren van zo'n voorkeursbeleid zijn uitgewerkt. In het geval van deze organisatie was de conclusie dat het een morele plicht is om in ieder geval op enkele plaatsen een voorkeursbeleid in te voeren.
 
 
 # Aansluiting bij ethische stromingen
 
 De vraag naar het 'juiste' is niet eenvoudig te beantwoorden.
-Niet alleen omdat waarden kunnen conflicteren, maar ook verschillende ethische theorieën een handeling of persoon op een verschillende manier beoordelen. 
-In deze sectie bespreken we kort hoe de Midas-methode aansluit bij deze verschillende theorieën.
+Niet alleen omdat waarden kunnen conflicteren, maar ook verschillende ethische theorieën een handeling of een persoon op verschillende manieren beoordelen. 
+In deze sectie bespreken we kort hoe de Midas-methode aansluit bij deze theorieën.
 
 De drie belangrijkste ethische theorieën zijn utilitarisme (gevolgenethiek), deontologie (plichtethiek) en deugdethiek.
 De Midas-methode is niet gecommitteerd aan één ethische stroming. 
@@ -134,16 +141,21 @@ De deontologie beoordeelt een handeling niet op basis van de gevolgen, maar op b
 Een handeling is juist als die met de juiste intentie is voltrokken.
 De filosoof Immanuel Kant heeft een 'handeling met juiste intentie' geformaliseerd als díe handeling waarvan gewild zou kunnen worden dat iedereen in dezelfde situatie ook die handeling zou kiezen.
 De deontologie gaat uit van de autonomie en waardigheid van andere mensen.
-In de Midas-methode komt de deontologie naar voren in stap 4 **(?)**, waarin de waarden van de verschillende stakeholders op een rij worden gezet.
+In de Midas-methode komt de deontologie naar voren in stap 3 (stakeholders) en 4 (waarden), waarin de waarden van de verschillende stakeholders op een rij worden gezet.
 Waarden als eerlijkheid, integriteit en maatschappelijke verantwoordelijkheid getuigen van een plicht die een organisatie heeft richting haar medewerkers en haar omgeving.
-**Meer?**
 
-De deugdethiek wijkt af van de eerdere genoemde stromingen, omdat ze niet een *handeling* beoordeelt, maar de eigenschappen van de persoon die de handeling uitvoert.
-
-**verder uitwerken**
+De deugdethiek wijkt af van de eerdere genoemde stromingen, omdat ze niet zozeer een *handeling* beoordeelt, maar de eigenschappen van de *persoon* die de handeling uitvoert.
+Hoewel deugdethiek historisch wordt toegepast op natuurlijke personen, beargumenteren wij dat het eveneens mogelijk is deze ethiek toe te passen op rechtspersonen.
+Waar Aristoteles, grondlegger van de deugdethiek, de vraag stelt wat voor persoon ik moet zijn om het juiste te doen, stellen wij de vraag waar een organisatie aan moet voldoen om het juiste te doen.
+De aansluiting met de Midas-methode zit hier in het expliciteren van de *eigen* kernwaarden.
+Door deze te expliciteren, wordt duidelijk waar de organisatie naar streeft.
+Het toepassen van de Midas-methode leidt vervolgens tot een *oefening* van de vaardigheden om de juiste beslissing te nemen, en door dit oefenen wordt een organisatie deugdzamer.
 
 
 # Conclusie
 
-**Te schrijven**
-
+In deze tekst hebben wij de Midas-methode geïntroduceerd: 
+een manier om op een gestructureerde methode na te denken over ethische vraagstukken in een organisatie.
+De methode is een startpunt om het experiment aan te gaan;
+we nodigen iedereen uit om de methode toe te passen in je eigen organisatie.
+Want door ethiek actief toe te passen in een organisatie, verrijk je de besluitvorming van de rechtspersoon.

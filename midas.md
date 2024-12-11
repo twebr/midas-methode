@@ -1,6 +1,6 @@
 ---
 title: "De Midasmethode"
-author: A.W.A. Koentjes LLM & T.P. Meeuwisse MA MSc
+author: A.W.A. Koentjes LLM
 date: \today
 lang: nl-NL
 abstract: |
@@ -179,3 +179,9 @@ een manier om op een gestructureerde methode na te denken over ethische vraagstu
 De methode is een startpunt om het experiment aan te gaan;
 we nodigen iedereen uit om de methode toe te passen in je eigen organisatie.
 Want door ethiek actief toe te passen in een organisatie, verrijk je de besluitvorming van de rechtspersoon.
+
+
+
+# Dankbetuiging {-}
+
+De auteur bedankt ir. drs. Thijs P. Meeuwisse voor het uitwerken van de Midasmethode in deze tekst.
